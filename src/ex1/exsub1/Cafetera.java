@@ -1,10 +1,9 @@
 package ex1.exsub1;
 
 public class Cafetera extends Electrodomesticos {
-    //private getters setters
-    double capacidadLitros;
-    double tiempoDePreparacion;
-    boolean vieneConBolsaCafe;
+    private double capacidadLitros;
+    private double tiempoDePreparacion;
+    private boolean vieneConBolsaCafe;
 
     public Cafetera(String marca, double peso, String id, String tienda, double capacidadLitros, double tiempoDePreparacion, boolean vieneConBolsaCafe) {
         super(marca, peso, id, tienda);

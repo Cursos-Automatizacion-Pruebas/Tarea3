@@ -3,10 +3,9 @@ package ex1;
 import ex1.exsub1.Electrodomesticos;
 
 public class Microondas extends Electrodomesticos {
-    //private getters setters
-    int numeroBotones;
-    double calorMaximo;
-    boolean vienePlatoVidrio;
+    private int numeroBotones;
+    private double calorMaximo;
+    private boolean vienePlatoVidrio;
 
     public Microondas(String marca, double peso, String id, String tienda, int numeroBotones, double calorMaximo, boolean vienePlatoVidrio) {
         super(marca, peso, id, tienda);

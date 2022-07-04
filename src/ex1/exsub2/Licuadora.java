@@ -3,10 +3,9 @@ package ex1.exsub2;
 import ex1.exsub1.Electrodomesticos;
 
 public class Licuadora extends Electrodomesticos {
-    //private getters setters
-    int numeroAspas;
-    int numeroVelocidades;
-    boolean esContenedorVidrio;
+    private int numeroAspas;
+    private int numeroVelocidades;
+    private boolean esContenedorVidrio;
 
     public Licuadora(String marca, double peso, String id, String tienda, int numeroAspas, int numeroVelocidades, boolean esContenedorVidrio) {
         super(marca, peso, id, tienda);
