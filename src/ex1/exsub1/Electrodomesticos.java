@@ -1,11 +1,10 @@
 package ex1.exsub1;
 
 public abstract class Electrodomesticos {
-    //private getters setters
-    String marca;
-    double peso;
-    String id;
-    String tienda;
+    private String marca;
+    private double peso;
+    private String id;
+    private String tienda;
 
     public Electrodomesticos() {
     }
